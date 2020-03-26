@@ -15,6 +15,7 @@ if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
   SET(EXAMPLE_DIRS
     ${EXAMPLE_DIRS}
     ImageMeta
+    Lab_PWP
     Point
     TrackingData
     QuaternionTrackingData
@@ -59,6 +60,7 @@ else(NOT OpenIGTLink_PLATFORM_QNX)
       Receiver
       )
 endif(NOT OpenIGTLink_PLATFORM_QNX)
+
 
 
 
